@@ -23,9 +23,9 @@ src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type=
 </div>
 <div class="wrapp" ng-controller="googlemapoutput">
          <div class="row">
-            <br> Start Location <br><input type="text"  ng-model="startlocation" id="startlocation"/>
-             <br> End Location <br><input type="text"  ng-model="endlocation" id="endlocation" /> 
-               <br><br> <button id="btn" ng-click="calcRoute()">
+          &nbsp; &nbsp; Start Location: &nbsp; &nbsp; <input type="text"  ng-model="startlocation" id="startlocation"/>
+            &nbsp; &nbsp;  End Location: &nbsp; &nbsp;<input type="text"  ng-model="endlocation" id="endlocation" /> 
+           &nbsp; &nbsp;   <button id="btn" ng-click="calcRoute()">
                     Get Direction & Weather INFO.
                 </button>
                  <br/></br>
